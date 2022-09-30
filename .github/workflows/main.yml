@@ -36,9 +36,9 @@ jobs:
           python3 test.py
 
     build:
-      needs: test
+      # needs: test
       runs-on: ubuntu-latest
-      if: github.event_name == 'push'
+      # if: github.event_name == 'push'
       steps:
 
       - uses: actions/checkout@master
