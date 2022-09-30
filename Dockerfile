@@ -1,4 +1,4 @@
-FROM sourcepole/qwc-uwsgi-base:alpine-v2022.01.26
+FROM ghcr.io/neotrade-ts/qwc-uwsgi-base:alpine-latest
 
 ADD . /srv/qwc_service
 
